@@ -1,0 +1,62 @@
+#nav-right{
+    flex:1 1 auto;
+    justify-content: flex-end;
+    margin-left: auto;
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+
+.menus_item_child li:not(#sidebar-menus li){
+    float: left;
+    border-radius: 5px!important;
+    -webkit-border-radius: 5px!important;
+    -moz-border-radius: 5px!important;
+    -ms-border-radius: 5px!important;
+    -o-border-radius: 5px!important;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.menus_item_child:not(#sidebar-menus ul){
+    left: 50%;
+    translate: -50%;
+}
+
+.site-name::before {
+    opacity: 0;
+    background-color: orange!important;
+    border-radius: 12px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    position:absolute;
+    top:0!important;
+    right:0!important;
+    width: 97%;
+    height: 100%;
+    content: "\f015";
+    box-shadow: 0 0 5px orange;
+    font-family: "Font Awesome 6 Free";
+    text-align: center;
+    color:white;
+    line-height: 1.2em;/*如果有溢出或者垂直不居中的现象微调一下这个参数*/
+    font-size: 26px;/*根据个人喜好*/
+}
+.site-name:hover::before {
+    opacity: 1;
+    scale: 1.03;
+}
+.site-name {
+    padding-left: 10px;
+    position: relative;
+    font-size: 28px; /*一定要把字体调大点，否则效果惨不忍睹！*/
+}
