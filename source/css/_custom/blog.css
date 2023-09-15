@@ -27,7 +27,7 @@
 
 .site-name::before {
     opacity: 0;
-    background-color: orange!important;
+    background-color: #c1edbf!important;
     border-radius: 12px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -44,11 +44,11 @@
     width: 97%;
     height: 100%;
     content: "\f015";
-    box-shadow: 0 0 5px orange;
+    box-shadow: 0 0 5px #c1edbf;
     font-family: "Font Awesome 6 Free";
     text-align: center;
     color:white;
-    line-height: 1.2em;/*如果有溢出或者垂直不居中的现象微调一下这个参数*/
+    line-height: 1.35em;/*如果有溢出或者垂直不居中的现象微调一下这个参数*/
     font-size: 26px;/*根据个人喜好*/
 }
 .site-name:hover::before {
