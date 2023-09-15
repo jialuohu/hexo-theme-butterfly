@@ -67,3 +67,7 @@
 #footer {
     background-color: snow;
 }
+
+#footer-wrap {
+    padding: 10px 20px;
+}
