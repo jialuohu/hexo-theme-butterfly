@@ -60,3 +60,10 @@
     position: relative;
     font-size: 28px; /*一定要把字体调大点，否则效果惨不忍睹！*/
 }
+
+
+
+/* footer adjustment */
+#footer {
+    background-color: snow;
+}
