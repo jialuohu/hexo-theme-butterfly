@@ -1,3 +1,9 @@
+/* body {
+    font-family: 'Allura', cursive;
+    font-family: 'Inconsolata', monospace;
+} */
+
+/* nav bar */
 #nav-right{
     flex:1 1 auto;
     justify-content: flex-end;
