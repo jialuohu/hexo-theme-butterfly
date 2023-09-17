@@ -64,15 +64,15 @@
     position:absolute;
     top:0!important;
     right:0!important;
-    width: 97%;
-    height: 100%;
+    width: 95%;
+    height: 120%;
     content: "\f015";
     box-shadow: 0 0 5px #c1edbf;
     font-family: "Font Awesome 6 Free";
     text-align: center;
     color:white;
-    line-height: 1.35em;/*如果有溢出或者垂直不居中的现象微调一下这个参数*/
-    font-size: 26px;/*根据个人喜好*/
+    line-height: 1.4em;/*如果有溢出或者垂直不居中的现象微调一下这个参数*/
+    font-size: 1em;/*根据个人喜好*/
 }
 .site-name:hover::before {
     opacity: 1;
@@ -81,7 +81,7 @@
 .site-name {
     padding-left: 10px;
     position: relative;
-    font-size: 28px; /*一定要把字体调大点，否则效果惨不忍睹！*/
+    font-size: 20px; /*一定要把字体调大点，否则效果惨不忍睹！*/
 }
 /* #endregion */
 
