@@ -1,9 +1,26 @@
+
 /* body {
     font-family: 'Allura', cursive;
     font-family: 'Inconsolata', monospace;
 } */
 
-/* nav bar */
+/* #region Home Setting */
+#page-header {
+    background-position: 0 -5rem;
+}
+#site-title {
+    display: none;
+}
+/* #endregion */
+
+/* Article Setting */
+#article-container li::marker {
+    color: gray;
+}
+
+
+/* #region NavBar Setting */
+
 #nav-right{
     flex:1 1 auto;
     justify-content: flex-end;
@@ -66,14 +83,17 @@
     position: relative;
     font-size: 28px; /*一定要把字体调大点，否则效果惨不忍睹！*/
 }
+/* #endregion */
 
 
-
-/* footer adjustment */
+/* Footer Setting */
 #footer {
     background-color: snow;
 }
-
 #footer-wrap {
     padding: 10px 20px;
 }
+
+
+
+
