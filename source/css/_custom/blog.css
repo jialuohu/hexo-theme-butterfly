@@ -20,6 +20,9 @@ a {
 #article-container li::marker {
     color: gray;
 }
+#page-header.not-home-page {
+    height: 60px;
+}
 
 
 /* #region NavBar Setting */
