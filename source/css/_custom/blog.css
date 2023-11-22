@@ -99,6 +99,12 @@ a {
 #footer-wrap {
     padding: 10px 20px;
 }
+.footer_custom_text p {
+    font-size: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
